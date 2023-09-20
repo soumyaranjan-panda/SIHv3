@@ -1,0 +1,4 @@
+#dd{  
+    /* global 92%+ browsers support */
+    background: radial-gradient(ellipse at 80% 50%, rgba(0, 110, 191, 1) 0%, rgba(65, 154, 219, 1) 35%, rgba(138, 173, 215, 1) 65%);
+}

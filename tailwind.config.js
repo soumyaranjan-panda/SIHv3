@@ -11,7 +11,7 @@ module.exports = {
         p4: "#8AADD7",
         p5: '#195399E1',
         p6: '#FEF2F2',
-        p7: '#eabba7'
+        p7: '#fff'
       },
     },
   },

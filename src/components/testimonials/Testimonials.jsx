@@ -9,7 +9,7 @@ const Testimonials = () => {
         <div class="mx-auto max-w-2xl lg:max-w-4xl">
           <img
             class="mx-auto h-12"
-            src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
+            src=""
             alt=""
           />
           <figure class="mt-10">
@@ -23,7 +23,7 @@ const Testimonials = () => {
             <figcaption class="mt-10">
               <img
                 class="mx-auto h-10 w-10 rounded-full"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                src=""
                 alt=""
               />
               <div class="mt-4 flex items-center justify-center space-x-3 text-base">

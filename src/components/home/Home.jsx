@@ -1,5 +1,5 @@
 import React from "react";
-import toast, { Toaster } from "react-hot-toast";
+//import toast, { Toaster } from "react-hot-toast";
 
 
 
@@ -10,7 +10,8 @@ const Home = () => {
       <div className="h-[100vh] mt-[65px]">
         
         <div className="bg-p6 fixed z-0" id="dd" >
-          <img src="../sdf.jpg" className="h-[100vh]   w-[100vw] object-contain " alt="" />
+      
+          <img src="./sdf.jpg" className="h-[100vh]   w-[100vw] object-contain " alt="" />
         </div>
       </div>
       
@@ -41,6 +42,6 @@ export default Home;
 
 
 
-{/* <div className="ml-[20vw]">
+/* <div className="ml-[20vw]">
         <Earth/>
-      </div> */}
+      </div> */

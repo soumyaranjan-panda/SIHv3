@@ -21,13 +21,6 @@ const Features = () => {
           eveniet cum, quidem cumque nisi impedit maxime explicabo, similique
           error repellat consectetur, dignissimos voluptates quod ad officiis
           deleniti expedita quasi omnis id neque mollitia nulla iure quibusdam!
-          Vel non dolorum quas minima atque, alias totam modi veniam doloribus
-          quis cumque eaque distinctio eligendi in similique. Laborum sapiente
-          impedit aperiam repellendus aspernatur aut numquam a sit doloremque
-          dolor architecto provident dolore, debitis aliquid inventore eum
-          corrupti quisquam rem molestias! Magnam eligendi ducimus quia ut enim.
-          Corrupti blanditiis dolorem quidem. Minima eum molestiae iure
-          accusantium deserunt error numquam! Dolor commodi quae veniam optio?
           {myElementIsVisible1 ? "yes" : "no"}
         </p>
       </div>
@@ -41,12 +34,6 @@ const Features = () => {
           error repellat consectetur, dignissimos voluptates quod ad officiis
           deleniti expedita quasi omnis id neque mollitia nulla iure quibusdam!
           Vel non dolorum quas minima atque, alias totam modi veniam doloribus
-          quis cumque eaque distinctio eligendi in similique. Laborum sapiente
-          impedit aperiam repellendus aspernatur aut numquam a sit doloremque
-          dolor architecto provident dolore, debitis aliquid inventore eum
-          corrupti quisquam rem molestias! Magnam eligendi ducimus quia ut enim.
-          Corrupti blanditiis dolorem quidem. Minima eum molestiae iure
-          accusantium deserunt error numquam! Dolor commodi quae veniam optio?
           {myElementIsVisible2 ? "yes" : "no"}
         </p>
         <img className={`RL_B h-[55vh] ${myElementIsVisible2 ? "RL_A": ''} `} src="./gps(1).png" alt="" />
@@ -63,12 +50,6 @@ const Features = () => {
           error repellat consectetur, dignissimos voluptates quod ad officiis
           deleniti expedita quasi omnis id neque mollitia nulla iure quibusdam!
           Vel non dolorum quas minima atque, alias totam modi veniam doloribus
-          quis cumque eaque distinctio eligendi in similique. Laborum sapiente
-          impedit aperiam repellendus aspernatur aut numquam a sit doloremque
-          dolor architecto provident dolore, debitis aliquid inventore eum
-          corrupti quisquam rem molestias! Magnam eligendi ducimus quia ut enim.
-          Corrupti blanditiis dolorem quidem. Minima eum molestiae iure
-          accusantium deserunt error numquam! Dolor commodi quae veniam optio?
           {myElementIsVisible3 ? "yes" : "no"}
         </p>
       </div>

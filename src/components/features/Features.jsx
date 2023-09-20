@@ -9,7 +9,7 @@ const Features = () => {
       ref={myRef}
       className="flex flex-row justify-evenly items-center p-[450px] bg-slate-600 h-[1000px] relative z-10"
     >
-      <p className=''>
+      <p className={`${myElementIsVisible ? 'dido' : ''}`}>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
         eveniet cum, quidem cumque nisi impedit maxime explicabo, similique
         error repellat consectetur, dignissimos voluptates quod ad officiis

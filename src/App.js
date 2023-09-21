@@ -4,8 +4,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Footerr from "./components/footer/Footerr";
 import Main from "./components/main/Main"
 import Features from "./components/features/Features";
-import Testimonials2 from "./components/testimonials/Testimonials2";
 import Rocket1 from "./components/rocket/Rocket1";
+import Testimonials3 from "./components/testimonials/Testimonials3";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Home />
       <Features/>
       <Main/>
-      <Testimonials2/>
+      <Testimonials3/>
       <Rocket1/>
       <Footerr />
     </div>

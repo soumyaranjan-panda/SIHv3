@@ -1,0 +1,44 @@
+[
+  {
+    "ID": 1,
+    "name": "Rupali Tripathy",
+    "img": "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
+    "position": "Leader",
+    "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs"
+  },
+  {
+    "ID": 2,
+    "name": "Sakti",
+    "img": "./p2.png",
+    "position": "Hardware",
+    "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs"
+  },
+  {
+    "ID": 3,
+    "name": "Chinmay",
+    "img": "./p4.png",
+    "position": "Hardware",
+    "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs"
+  },
+  {
+    "ID": 4,
+    "name": "Nitish Ranjan Panda",
+    "img": "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
+    "position": "Hardware",
+    "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs"
+  },
+  {
+    "ID": 5,
+    "name": "Swayam",
+    "img": "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
+    "position": "Software",
+    "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs"
+  },
+  {
+    "ID": 6,
+    "name": "Soumyaranjan Panda",
+    "img": "./p6.jpg",
+    "position": "Software",
+    "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs"
+  }
+]

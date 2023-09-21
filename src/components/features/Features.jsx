@@ -58,7 +58,3 @@ const Features = () => {
 };
 
 export default Features;
-// my-[200px] mx-[400px]
-//` ${myElementIsVisible? slide : ''}`
-//{`${myElementIsVisible ? styles.animateRocket : ''}`}
-//{`imgB h-[55vh] ${myElementIsVisible ? "animateRocket": ''} `}

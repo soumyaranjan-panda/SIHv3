@@ -29,6 +29,22 @@
   transform: translate(0vw);
 }
 
+.BT_B {
+  position: relative;
+  top: 1vh;
+  bottom: 1vh;
+  right: 0vw;
+  width: 30em;
+  opacity: 0;
+  transform: translatey(-10vw);
+  transition: all 0.8s ease;
+}
+
+.BT_A{
+  opacity: 1;
+  transform: translate(0vw);
+}
+
 
 
 .dido{

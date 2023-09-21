@@ -1,13 +1,16 @@
 import React from "react";
 
-const T_Cards = ({ ID, name, img, position, desc }) => {
+const T_Cards = ({ ID, name, img, position, desc, github }) => {
   return (
     <div class="mb-12 md:mb-0">
       <div class="mb-6 flex justify-center">
-        <img
-          src={img}
-          class="w-32 rounded-full shadow-lg dark:shadow-black/20"
-        />
+        <a href={github} target="_blank">
+          <img
+            src={img}
+            alt="imgage"
+            class="w-32 rounded-full shadow-lg dark:shadow-black/20"
+          />
+        </a>
       </div>
       <h5 class="mb-2 text-lg font-bold">{name}</h5>
       <h6 class="mb-4 font-medium text-primary dark:text-primary-400">

@@ -26,7 +26,7 @@ const Testimonials3 = () => {
 
           <div class="grid gap-x-6 md:grid-cols-6 lg:gap-x-12">
             {profiles.map((profile)=>(
-                <T_Cards key={profile.ID} name={profile.name} img={profile.img} position={profile.position} desc={profile.description} ></T_Cards>
+                <T_Cards key={profile.ID} name={profile.name} img={profile.img} position={profile.position} desc={profile.description} github={profile.github}></T_Cards>
             ))}
           </div>
         </section>

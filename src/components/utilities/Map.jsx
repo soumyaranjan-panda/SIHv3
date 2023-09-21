@@ -1,6 +1,6 @@
 import React from "react";
-import { useState, useCallback, forwardRef } from "react";
-import { GoogleMapsProvider, useGoogleMap } from "@ubilabs/google-maps-react-hooks";
+import { useState, useCallback} from "react";
+import { GoogleMapsProvider} from "@ubilabs/google-maps-react-hooks";
 
 
 

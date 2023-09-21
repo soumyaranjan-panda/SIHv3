@@ -7,7 +7,7 @@ const Home = () => {
   
   return (
     <div>
-      <div className="h-[100vh] mt-[65px]">
+      <div className="h-[100vh] ">
         
         <div className="bg-p6 fixed z-0" id="dd" >
       

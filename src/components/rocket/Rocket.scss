@@ -1,0 +1,21 @@
+.scroll-top{
+    position: fixed;
+    bottom:6.5rem; right:1.2rem;
+    z-index: 100;
+}
+
+.scroll-top img{
+    width:5rem;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float{
+    100%, 0%{
+        transform: translateY(0rem);
+    }
+
+    50%{
+        transform: translateY(-3rem);
+    }
+
+}

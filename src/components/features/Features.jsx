@@ -85,7 +85,10 @@ const Features = () => {
           {myElementIsVisible3 ? "yes" : "no"}
         </p>
       </div>
-      <div ref={myRef4} className=""></div>
+      <div ref={myRef4} className={` flex flex-row justify-center px-auto bg-p7  py-10 pb-20 relative z-10`}>
+        <p className={` text-2xl BT_B ${myElementIsVisible4 ? 'BT_A' : ''}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque dolores quis ipsam accusantium unde veritatis
+        </p>
+      </div>
     </div>
   );
 };

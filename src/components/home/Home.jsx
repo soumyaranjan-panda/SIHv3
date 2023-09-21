@@ -6,17 +6,20 @@ import React from "react";
 const Home = () => {
   
   return (
-    <div>
-      <div className="h-[100vh] mt-[65px]">
-        
-        <div className="bg-p6 fixed z-0" id="dd" >
-      
-          <img src="./sdf.jpg" className="h-[100vh]   w-[100vw] object-contain " alt="" />
-        </div>
-      </div>
-      
-      
+<div>
+  <div className="h-[100vh] relative">
+    {/* Add a block of text */}
+    <div className="fixed z-10 w-4/12  mt-52 ml-32">
+      <h1 className="text-5xl font-bold text-gray-800">Smart SOS System</h1>
+      <p className="mt-4 text-lg text-gray-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, aliquam dolorum atque voluptatum ea dolor nulla iste repellat odio amet ex porro eius quis, harum nostrum, possimus vitae assumenda incidunt!</p>
     </div>
+    
+    <div className="bg-p6 fixed z-0" id="dd">
+      <img src="./sdf.jpg" className="h-[100vh] w-[100vw] object-contain" alt="" />
+    </div>
+  </div>
+</div>
+
   );
 };
 

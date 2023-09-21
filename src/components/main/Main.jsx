@@ -3,7 +3,7 @@ import Map from "../utilities/Map";
 
 const Main = () => {
   return (
-    <div className="bg-white relative ">
+    <div className="bg-white relative z-20">
       <div className="flex flex-col justify-center items-center">
         <div className=" text-2xl">Map Section</div>
         <div className="m-[15px] p-4 flex flex-row justify-evenly gap-32">

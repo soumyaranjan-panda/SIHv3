@@ -14,7 +14,7 @@ const Testimonials3 = () => {
   }, []);
   const { ref: myRef, inView: myElementIsVisible } = useInView();
   return (
-    <div className={` z-10 relative bg-p6 h-full `}>
+    <div className={` z-20 relative bg-p6 h-full `}>
       <div
         ref={myRef}
         class={`testimonials container py-16 mx-auto md:px-6 ${

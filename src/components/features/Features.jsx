@@ -1,6 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import "./Features.css";
+import "./Features.scss";
 
 const Features = () => {
   const { ref: myRef1, inView: myElementIsVisible1 } = useInView({threshold:0,});

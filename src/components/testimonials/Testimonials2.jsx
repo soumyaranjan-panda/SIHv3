@@ -6,7 +6,7 @@ const Testimonials2 = () => {
   const { ref: myRef, inView: myElementIsVisible } = useInView();
   return (
     <div className={` z-10 relative bg-p6 h-full `}>
-      <div ref={myRef} class={`testimonials container py-12 mx-auto md:px-6 ${myElementIsVisible ? 'testimonialsA': ''}`}>
+      <div ref={myRef} class={`testimonials container py-16 mx-auto md:px-6 ${myElementIsVisible ? 'testimonialsA': ''}`}>
         <section class=" pb-16 text-center">
           <h2 class="mb-12 text-3xl font-bold">Testimonials</h2>
 
@@ -102,7 +102,7 @@ const Testimonials2 = () => {
             <div class="mb-12 md:mb-0">
               <div class="mb-6 flex justify-center">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg"
+                  src="./p2.png"
                   class="w-32 rounded-full shadow-lg dark:shadow-black/20"
                 />
               </div>
@@ -278,7 +278,7 @@ const Testimonials2 = () => {
             <div class="mb-0 md:mb-0">
               <div class="mb-6 flex justify-center">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg"
+                  src="./p4.png"
                   class="w-32 rounded-full shadow-lg dark:shadow-black/20"
                 />
               </div>
@@ -454,7 +454,7 @@ const Testimonials2 = () => {
             <div class="mb-0">
               <div class="mb-6 flex justify-center">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg"
+                  src="./p6.jpg"
                   class="w-32 rounded-full shadow-lg dark:shadow-black/20"
                 />
               </div>

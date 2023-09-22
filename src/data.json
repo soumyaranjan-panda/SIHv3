@@ -10,7 +10,7 @@
   {
     "ID": 2,
     "name": "Sakti",
-    "img": "./p2.png",
+    "img": "./p2.jpeg",
     "position": "Hardware",
     "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs",
     "github": "#"
@@ -18,7 +18,7 @@
   {
     "ID": 3,
     "name": "Chinmay",
-    "img": "./p3.png",
+    "img": "./p3.jpeg",
     "position": "Hardware",
     "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs",
     "github": "#"

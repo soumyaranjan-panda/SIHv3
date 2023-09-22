@@ -85,9 +85,31 @@ const Features = () => {
           {myElementIsVisible3 ? "yes" : "no"}
         </p>
       </div>
-      <div ref={myRef4} className={` flex flex-row justify-center px-auto bg-p7  py-10 pb-20 relative z-10`}>
-        <p className={` text-2xl BT_B ${myElementIsVisible4 ? 'BT_A' : ''}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque dolores quis ipsam accusantium unde veritatis
-        </p>
+      <div className="bg-p7 relative z-10">
+        <div
+          ref={myRef4}
+          className={` flex flex-col items-center px-auto py-10 pb-20  BT_B ${
+            myElementIsVisible4 ? "BT_A" : ""
+          }`}
+        >
+          <p className={` text-2xl font-semibold `}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit
+          </p>
+          <div className=" flex flex-row gap-20 mt-10 flex-wrap">
+            <div className="h-[15vw] w-[15vw]">
+              <img src="./gps(3).png" alt="" />
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div className="h-[15vw] w-[15vw]">
+              <img src="./gps(3).png" alt="" />
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div className="h-[15vw] w-[15vw]">
+              <img src="./gps(3).png" alt="" />
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

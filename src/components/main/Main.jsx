@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Map from "../utilities/Map";
 import GaugeComponent from "react-gauge-component";
+import Container from "../container/Container";
 
 const Main = () => {
   const [showPara, setShowPara] = useState(false);
@@ -83,6 +84,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+      <Container />
     </div>
   );
 };

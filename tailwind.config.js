@@ -14,6 +14,7 @@ module.exports = {
       },
       backgroundImage: {
         'bGround': "url('./assets/bg.png')",
+        'bGround1': "url('./assets/bg1.png')",
         
       },
     },

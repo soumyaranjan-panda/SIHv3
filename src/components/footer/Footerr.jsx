@@ -19,7 +19,7 @@ const Footerr = () => {
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-950 textgra uppercase dark:text-black">
+                <h2 class=" cursor-default mb-6 text-sm font-semibold text-gray-950 textgra uppercase dark:text-black">
                   Resources
                 </h2>
                 <ul class="text-gray-700 dark:text-gray-800 font-medium">
@@ -46,7 +46,7 @@ const Footerr = () => {
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-950 uppercase dark:text-black">
+                <h2 class=" cursor-default mb-6 text-sm font-semibold text-gray-950 uppercase dark:text-black">
                   Follow us
                 </h2>
                 <ul class="text-gray-700 dark:text-gray-800 font-medium">
@@ -69,7 +69,7 @@ const Footerr = () => {
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-950 uppercase dark:text-black">
+                <h2 class=" cursor-default mb-6 text-sm font-semibold text-gray-950 uppercase dark:text-black">
                   Legal
                 </h2>
                 <ul class="text-gray-700 dark:text-gray-800 font-medium">

@@ -87,6 +87,12 @@ const Navbar = () => {
                 href="#"
                 className="px-2 py-1.5 mx-3 mt-2 text-gray-200 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-indigo-400/70 dark:hover:drop-shadow-sm"
               >
+                Lorem
+              </a>
+              <a
+                href="#"
+                className="px-2 py-1.5 mx-3 mt-2 text-gray-200 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-indigo-400/70 dark:hover:drop-shadow-sm"
+              >
                 Testimonials
               </a>
               <a

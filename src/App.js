@@ -9,7 +9,7 @@ import Testimonials3 from "./components/testimonials/Testimonials3";
 
 function App() {
   return (
-    <div >
+    <div className="font-san">
       <Toaster />
       <Navbar />
       <Home />

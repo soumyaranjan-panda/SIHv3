@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky  top-0 z-50  bg-white shadow dark:bg-red-400/70  backdrop-blur-md">
-      <div className="  container px-6 py-3 mx-auto">
+      <div className="  container px-6 py-2 mx-auto">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="flex items-center justify-between">
             <a className="flex flex-row justify-evenly gap-4" href="#">
@@ -97,10 +97,10 @@ const Navbar = () => {
               </a>
             </div>
 
-            <button className="px-3 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-600/60 rounded-lg hover:bg-indigo-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <button className="px-2 py-1.5 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-600/60 rounded-lg hover:bg-indigo-500/80 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
               Sign Up
             </button>
-            <button className="px-4 mx-3 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-600/60 rounded-lg hover:bg-indigo-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <button className="px-2 py-1.5 mx-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-600/60 rounded-lg hover:bg-indigo-500/80 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
               Login
             </button>
           </div>

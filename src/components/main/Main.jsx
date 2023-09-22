@@ -16,40 +16,40 @@ const Main = () => {
             <img src="accident.png" alt="" />
           </div>
           <div className="flex flex-row gap-[2vw]">
-            <div className="  rounded-md flex flex-row justify-center">
+            <div className="  rounded-md flex flex-row justify-center ">
               <div className="block h-[60vh] w-[18vw] rounded-lg bg-white text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[#FEF2F2]">
-                <div className="border-b-2 mx-10 font-bold text-xl border-neutral-100 px-6 py-3 dark:border-gray-300 dark:text-gray-800">
+                <div className="border-b-2 mx-10 font-bold text-xl border-neutral-100 px-5 py-3 dark:border-gray-300 dark:text-gray-800">
                   Accident Details
                 </div>
                 <div className="p-6">
-                  <div className="flex flex-col gap-2 items-center">
+                  <div className="flex flex-col gap-2 items-center justify-center">
                     <GaugeComponent
                       arc={{
                         subArcs: [
                           {
                             limit: 20,
-                            color: "#EA4228",
+                            color: "#5BE12C",
                             showTick: true,
                           },
                           {
                             limit: 40,
-                            color: "#F58B19",
-                            showTick: true,
-                          },
-                          {
-                            limit: 60,
                             color: "#F5CD19",
                             showTick: true,
                           },
                           {
+                            limit: 60,
+                            color: "#F58B19",
+                            showTick: true,
+                          },
+                          {
                             limit: 100,
-                            color: "#5BE12C",
+                            color: "#EA4228",
                             showTick: true,
                           },
                         ],
                       }}
-                      value={30}
-                      style={{ width: 200 }}
+                      value={65}
+                      style={{ width: 245 }}
                     />
                     <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-500 dark:text-gray-500">
                       Accident Intensity

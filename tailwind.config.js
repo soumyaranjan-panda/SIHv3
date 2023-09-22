@@ -1,3 +1,4 @@
+
 module.exports = {
   content: ["./index.html", "./src/*.{js,jsx}", "./src/**/*.{js,jsx}"],
   theme: {
@@ -11,7 +12,10 @@ module.exports = {
         p6: "#FEF2F2",
         p7: "#fff",
       },
-      backgroundImage: {},
+      backgroundImage: {
+        'bGround': "url('./assets/bg.png')",
+        
+      },
     },
   },
   plugins: [],

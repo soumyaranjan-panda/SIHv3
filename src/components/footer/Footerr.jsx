@@ -2,8 +2,8 @@ import React from "react";
 
 const Footerr = () => {
   return (
-    <div className="relative z-20">
-      <footer class="bg-white dark:bg-gradient-to-l from-red-300 via-red-100 to-red-300">
+    <div className="relative z-20 bg-white dark:bg-gradient-to-l from-red-300 via-red-100 to-red-300">
+      <footer class=" bg-bGround opacity-50">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
@@ -19,18 +19,18 @@ const Footerr = () => {
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                <h2 class="mb-6 text-sm font-semibold text-gray-950 textgra uppercase dark:text-black">
                   Resources
                 </h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <ul class="text-gray-700 dark:text-gray-800 font-medium">
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
-                      Name
+                      ReactJS
                     </a>
                   </li>
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
-                      HTML
+                      Javascript
                     </a>
                   </li>
                   <li class="mb-4">
@@ -40,16 +40,16 @@ const Footerr = () => {
                   </li>
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
-                      Javascript
+                      Sass
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                <h2 class="mb-6 text-sm font-semibold text-gray-950 uppercase dark:text-black">
                   Follow us
                 </h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <ul class="text-gray-700 dark:text-gray-800 font-medium">
                   <li class="mb-4">
                     <a
                       href="https://github.com/"
@@ -69,10 +69,10 @@ const Footerr = () => {
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                <h2 class="mb-6 text-sm font-semibold text-gray-950 uppercase dark:text-black">
                   Legal
                 </h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <ul class="text-gray-700 dark:text-gray-800 font-medium">
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
                       Privacy Policy
@@ -89,7 +89,7 @@ const Footerr = () => {
           </div>
           <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            <span class="text-sm text-gray-700 sm:text-center dark:text-gray-800">
               © 2023{" "}
               <a href="" class="hover:underline">
                 Name™
@@ -99,7 +99,7 @@ const Footerr = () => {
             <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
               <a
                 href="#"
-                class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                class="text-gray-700 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
                   class="w-4 h-4"
@@ -118,7 +118,7 @@ const Footerr = () => {
               </a>
               <a
                 href="#"
-                class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                class="text-gray-700 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
                   class="w-4 h-4"
@@ -133,7 +133,7 @@ const Footerr = () => {
               </a>
               <a
                 href="#"
-                class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                class="text-gray-700 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
                   class="w-4 h-4"
@@ -152,7 +152,7 @@ const Footerr = () => {
               </a>
               <a
                 href="#"
-                class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                class="text-gray-700 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
                   class="w-4 h-4"
@@ -171,7 +171,7 @@ const Footerr = () => {
               </a>
               <a
                 href="#"
-                class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                class="text-gray-700 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
                   class="w-4 h-4"

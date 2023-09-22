@@ -7,7 +7,7 @@ const Map = ({ latitude, longitude }) => {
   const mapRef = useCallback((node) => {
     node && setMapContainer(node);
   }, []);
-  console.log(longitude, latitude);
+  
 
   const mapOptions = {
     center: {

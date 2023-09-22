@@ -12,6 +12,9 @@ const Home = () => {
     <div className="fixed z-10 w-4/12  mt-52 ml-32">
       <h1 className="text-5xl font-bold text-gray-800">Smart SOS System</h1>
       <p className="mt-4 text-lg text-gray-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, aliquam dolorum atque voluptatum ea dolor nulla iste repellat odio amet ex porro eius quis, harum nostrum, possimus vitae assumenda incidunt!</p>
+      <a href="#">
+        <p>learn more...</p>
+      </a>
     </div>
     
     <div className="bg-p6 fixed z-0" id="dd">

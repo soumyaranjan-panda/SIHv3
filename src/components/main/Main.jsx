@@ -77,7 +77,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="h-[60vh] w-[20vw] rounded-md">
+            <div className=" shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] h-[60vh] w-[20vw] rounded-md">
               <Map longitude={log} latitude={lat}></Map>
             </div>
           </div>

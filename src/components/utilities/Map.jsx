@@ -1,24 +1,21 @@
 import React from "react";
-import { useState, useCallback} from "react";
-import { GoogleMapsProvider} from "@ubilabs/google-maps-react-hooks";
+import { useState, useCallback } from "react";
+import { GoogleMapsProvider } from "@ubilabs/google-maps-react-hooks";
 
-
-
-const Map = () => {
-  
-  const [mapContainer, setMapContainer] = useState(null)
-  const mapRef = useCallback(node => {
+const Map = ({ latitude, longitude }) => {
+  const [mapContainer, setMapContainer] = useState(null);
+  const mapRef = useCallback((node) => {
     node && setMapContainer(node);
   }, []);
+  console.log(longitude, latitude);
 
   const mapOptions = {
     center: {
-      lat:20.275327,
-      lng: 85.776795
+      lat: latitude,
+      lng: longitude,
     },
     zoom: 16,
   };
-  
 
   return (
     <GoogleMapsProvider
@@ -26,7 +23,9 @@ const Map = () => {
       mapContainer={mapContainer}
       mapOptions={mapOptions}
     >
-      <div className= "h-[60vh] w-[20vw] rounded-md" ref={mapRef}> </div>
+      <div className="h-[60vh] w-[20vw] rounded-md" ref={mapRef}>
+        {" "}
+      </div>
     </GoogleMapsProvider>
   );
 };

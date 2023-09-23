@@ -34,7 +34,7 @@
   {
     "ID": 5,
     "name": "Swayam Pattanaik",
-    "img": "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
+    "img": "./p5.png",
     "position": "Full-Stack Developer",
     "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs",
     "github": "https://github.com/heyswayam"

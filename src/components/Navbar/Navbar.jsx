@@ -103,10 +103,10 @@ const Navbar = () => {
               </a>
             </div>
 
-            <button className="px-2 py-1.5 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-p9/80 rounded-lg hover:bg-p8/80 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <button className="px-2 py-1.5 font-medium tracking-wide text-black  capitalize transition-colors duration-300 transform bg-p9/80 rounded-lg hover:bg-p8/60 hover:text-white focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
               Sign Up
             </button>
-            <button className="px-2 py-1.5 mx-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-p9/80 rounded-lg hover:bg-p8/80 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <button className="px-2 py-1.5 mx-3 font-medium tracking-wide text-black capitalize transition-colors duration-300 transform bg-p9/80 rounded-lg hover:bg-p8/80 focus:outline-none hover:text-white focus:ring focus:ring-blue-300 focus:ring-opacity-80">
               Login
             </button>
           </div>

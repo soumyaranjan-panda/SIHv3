@@ -11,6 +11,8 @@ module.exports = {
         p5: "#195399E1",
         p6: "#FEF2F2",
         p7: "#fff",
+        p8: "#705959",
+        p9: "#BFA5A5"
       },
       backgroundImage: {
         'bGround': "url('./assets/bg.png')",

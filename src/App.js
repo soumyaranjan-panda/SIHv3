@@ -6,10 +6,12 @@ import Main from "./components/main/Main"
 import Features from "./components/features/Features";
 import Rocket1 from './components/utilities/rocket/Rocket1'
 import Testimonials3 from "./components/testimonials/Testimonials3";
+import PreLoader from "./components/preloader/PreLoader";
 
 function App() {
   return (
     <div className="font-san">
+      <PreLoader></PreLoader>
       <Toaster />
       <Navbar />
       <Home />

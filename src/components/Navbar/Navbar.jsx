@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky  top-0 z-50  bg-white shadow dark:bg-red-400/70  backdrop-blur-md">
+    <nav className="sticky  top-0 z-20  bg-white shadow dark:bg-red-400/70  backdrop-blur-md">
       <div className="  container px-6 py-2 mx-auto">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="flex items-center justify-between">
@@ -73,40 +73,40 @@ const Navbar = () => {
             <div className="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8">
               <a
                 href="#"
-                className="px-2 py-1.5 mx-3 mt-2 text-gray-50 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-indigo-400/70 dark:hover:drop-shadow-sm"
+                className="px-2 py-1.5 mx-3 mt-2 text-gray-50 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-p8/70 dark:hover:drop-shadow-sm"
               >
                 Working
               </a>
               <a
                 href="#"
-                className="px-2 py-1.5 mx-3 mt-2 text-gray-200 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-indigo-400/70 dark:hover:drop-shadow-sm"
+                className="px-2 py-1.5 mx-3 mt-2 text-gray-200 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-p8/70 dark:hover:drop-shadow-sm"
               >
                 Maps
               </a>
               <a
                 href="#"
-                className="px-2 py-1.5 mx-3 mt-2 text-gray-200 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-indigo-400/70 dark:hover:drop-shadow-sm"
+                className="px-2 py-1.5 mx-3 mt-2 text-gray-200 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-p8/70 dark:hover:drop-shadow-sm"
               >
                 Lorem
               </a>
               <a
                 href="#"
-                className="px-2 py-1.5 mx-3 mt-2 text-gray-200 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-indigo-400/70 dark:hover:drop-shadow-sm"
+                className="px-2 py-1.5 mx-3 mt-2 text-gray-200 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-p8/70 dark:hover:drop-shadow-sm"
               >
                 Testimonials
               </a>
               <a
                 href="#"
-                className="px-2 py-1.5 mx-3 mt-2 text-white transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50 hover:bg-gray-100 dark:hover:bg-indigo-400/70 dark:hover:drop-shadow-sm"
+                className="px-2 py-1.5 mx-3 mt-2 text-white transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50 hover:bg-gray-100 dark:hover:bg-p8/70 dark:hover:drop-shadow-sm"
               >
                 More
               </a>
             </div>
 
-            <button className="px-2 py-1.5 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-600/60 rounded-lg hover:bg-indigo-500/80 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <button className="px-2 py-1.5 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-p9/80 rounded-lg hover:bg-p8/80 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
               Sign Up
             </button>
-            <button className="px-2 py-1.5 mx-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-600/60 rounded-lg hover:bg-indigo-500/80 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <button className="px-2 py-1.5 mx-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-p9/80 rounded-lg hover:bg-p8/80 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
               Login
             </button>
           </div>

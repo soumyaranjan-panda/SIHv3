@@ -3,7 +3,7 @@
     "ID": 1,
     "name": "Rupali Tripathy",
     "img": "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
-    "position": "Leader",
+    "position": "IoT Developer",
     "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs",
     "github": "#"
   },
@@ -11,7 +11,7 @@
     "ID": 2,
     "name": "Sakti",
     "img": "./p2.jpeg",
-    "position": "Hardware",
+    "position": "Systems Architect",
     "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs",
     "github": "#"
   },
@@ -25,7 +25,7 @@
   },
   {
     "ID": 4,
-    "name": "Nitish Ranjan Panda",
+    "name": "Nitish Kumar Panda",
     "img": "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
     "position": "Hardware",
     "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs",
@@ -35,7 +35,7 @@
     "ID": 5,
     "name": "Swayam",
     "img": "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
-    "position": "Software",
+    "position": "Full-Stack Developer",
     "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs",
     "github": "https://github.com/heyswayam"
   },
@@ -43,7 +43,7 @@
     "ID": 6,
     "name": "Soumyaranjan Panda",
     "img": "./p6.jpg",
-    "position": "Software",
+    "position": "IoT & Full-Stack Developer",
     "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs",
     "github": "https://github.com/soumyaranjan-panda"
   }

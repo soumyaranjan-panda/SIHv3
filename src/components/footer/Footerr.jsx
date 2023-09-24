@@ -8,10 +8,7 @@ const Footerr = () => {
           <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
               <a href="#" class="flex items-center">
-                <img
-                  src=""
-                  class="h-8 mr-3"
-                />
+                <img src="" class="h-8 mr-3" />
                 <span class=" h-auto w-32">
                   <img src="./logoRakshak.png" alt="" />
                 </span>
@@ -51,18 +48,12 @@ const Footerr = () => {
                 </h2>
                 <ul class="text-gray-700 dark:text-gray-800 font-medium">
                   <li class="mb-4">
-                    <a
-                      href="https://github.com/"
-                      class="hover:underline "
-                    >
+                    <a href="https://github.com/" class="hover:underline ">
                       Github
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://discord.gg"
-                      class="hover:underline"
-                    >
+                    <a href="https://discord.gg" class="hover:underline">
                       Discord
                     </a>
                   </li>
@@ -151,7 +142,7 @@ const Footerr = () => {
                 <span class="sr-only">Twitter page</span>
               </a>
               <a
-              target=" "
+                target=""
                 href="https://github.com/soumyaranjan-panda/SIHv3"
                 class="text-gray-700 hover:text-gray-900 dark:hover:text-white"
               >

@@ -2,7 +2,7 @@
   {
     "ID": 1,
     "name": "Rupali Tripathy",
-    "img": "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
+    "img": "./p1.jpg",
     "position": "IoT Developer",
     "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs",
     "github": "#"
@@ -26,7 +26,7 @@
   {
     "ID": 4,
     "name": "Nitish Kumar Panda",
-    "img": "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
+    "img": "./p4.jpg",
     "position": "Hardware",
     "description": "Helo ahlef a shkdfhs hsdifhsd hsdf sdf isdhfs dfs ishdf sidfhs sid fsihdf sdif sdfhs idfshdfi sfs fihds fs",
     "github": "#"

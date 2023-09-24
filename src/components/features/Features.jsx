@@ -12,9 +12,7 @@ const Features = () => {
   const { ref: myRef3, inView: myElementIsVisible3 } = useInView({
     threshold: 0,
   });
-  const { ref: myRef4, inView: myElementIsVisible4 } = useInView({
-    threshold: 0,
-  });
+
   return (
     <div className="flex flex-col">
       <div className="flex justify-center items-center bg-p7 pt-12 p-4 z-10">
@@ -26,7 +24,7 @@ const Features = () => {
       >
         <img
           className={`LR_B h-[55vh] ${myElementIsVisible1 ? "LR_A" : ""} `}
-          src="./accident.png"
+          src="./upgradedCar.png"
           alt=""
         />
         <div className="flex flex-col gap-2 ml-[5vw] ">
@@ -80,7 +78,7 @@ const Features = () => {
         </div>
         <img
           className={`RL_B h-[55vh] ${myElementIsVisible2 ? "RL_A" : ""} `}
-          src="./accident.png"
+          src="./pic2.png"
           alt=""
         />
       </div>
@@ -90,7 +88,7 @@ const Features = () => {
       >
         <img
           className={`LR_B h-[55vh] ${myElementIsVisible3 ? "LR_A" : ""} `}
-          src="./accident.png"
+          src="./mobile.jpg"
           alt=""
         />
         <div className="flex flex-col gap-2 ml-[5vw] ">
@@ -114,7 +112,14 @@ const Features = () => {
           </p>
         </div>
       </div>
-      <div className="bg-p7 relative z-10">
+    </div>
+  );
+};
+
+export default Features;
+
+{
+  /* <div className="bg-p7 relative z-10">
         <div
           ref={myRef4}
           className={` flex flex-col items-center px-auto py-10 pb-20  BT_B ${
@@ -139,9 +144,9 @@ const Features = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
+      </div> */
+}
 
-export default Features;
+// const { ref: myRef4, inView: myElementIsVisible4 } = useInView({
+//   threshold: 0,
+// });

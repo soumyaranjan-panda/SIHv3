@@ -15,13 +15,13 @@ Thank you for your attention, and we look forward to demonstrating how our proje
 
 **Key Features:**
 
-1\. **Accident Detection and Emergency Response:** Our system detects accidents and sends immediate alerts to authorities, significantly reducing response times and potentially saving lives. It is particularly valuable in situations where riders are unable to call for help themselves.
-2\. **Theft Prevention and Recovery:** In the unfortunate event of unauthorized access or theft, our system activates anti-theft measures, sends alerts to the owner, and provides GPS coordinates for tracking and recovering the stolen vehicle.
-3\. **Ignition Lock:** This intelligent feature ensures that the owner has left the vehicle, and any action after key removal is considered invalid access, adding an additional layer of security.
-4\. **Emergency Response System:** In the event of a crash or emergency, our smart two-wheeler can automatically notify emergency services or designated contacts, ensuring rapid assistance.
-5\. **Smartphone Connectivity:** Integration with smartphones allows riders to receive calls, texts, and navigation instructions through a helmet-mounted display or speakers. This reduces the need for riders to take their hands off the handlebars or eyes off the road, enhancing safety and convenience.
-6\. **GPS Tracking and Anti-Theft Features:** In case of theft, GPS tracking can help locate the stolen bike, while anti-theft features such as alarms and immobilizers can deter theft attempts.
-7\. **Advanced Rider Assistance Systems (ARAS):** Our system goes beyond safety to provide advanced rider assistance, including adaptive cruise control, blind-spot monitoring, and lane-keeping assistance, further enhancing rider safety and comfort.
+1\. **Accident Detection and Emergency Response:** Our system detects accidents and sends immediate alerts to authorities, significantly reducing response times and potentially saving lives. It is particularly valuable in situations where riders are unable to call for help themselves.<br>
+2\. **Theft Prevention and Recovery:** In the unfortunate event of unauthorized access or theft, our system activates anti-theft measures, sends alerts to the owner, and provides GPS coordinates for tracking and recovering the stolen vehicle.<br>
+3\. **Ignition Lock:** This intelligent feature ensures that the owner has left the vehicle, and any action after key removal is considered invalid access, adding an additional layer of security.<br>
+4\. **Emergency Response System:** In the event of a crash or emergency, our smart two-wheeler can automatically notify emergency services or designated contacts, ensuring rapid assistance.<br>
+5\. **Smartphone Connectivity:** Integration with smartphones allows riders to receive calls, texts, and navigation instructions through a helmet-mounted display or speakers. This reduces the need for riders to take their hands off the handlebars or eyes off the road, enhancing safety and convenience.<br>
+6\. **GPS Tracking and Anti-Theft Features:** In case of theft, GPS tracking can help locate the stolen bike, while anti-theft features such as alarms and immobilizers can deter theft attempts.<br>
+7\. **Advanced Rider Assistance Systems (ARAS):** Our system goes beyond safety to provide advanced rider assistance, including adaptive cruise control, blind-spot monitoring, and lane-keeping assistance, further enhancing rider safety and comfort.<br>
 
 **Business Potential and Revenue Sources:**
 Our project holds immense business potential, particularly in a market as vast and dynamic as India, which boasts an astonishing 21 crore two-wheeler users. This colossal user base presents an unprecedented opportunity for direct consumer sales. The ability to offer our system directly to consumers, harnessing the power of this vast demographic, is a strategic advantage that can drive substantial revenue. Furthermore, our technology can be adapted to cater to the unique needs of this extensive user base, making it an attractive proposition for manufacturers, dealerships, and aftermarket retailers. By directly

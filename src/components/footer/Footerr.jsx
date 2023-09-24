@@ -12,8 +12,8 @@ const Footerr = () => {
                   src=""
                   class="h-8 mr-3"
                 />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">
-                  Name
+                <span class=" h-auto w-32">
+                  <img src="./logoRakshak.png" alt="" />
                 </span>
               </a>
             </div>
@@ -92,7 +92,7 @@ const Footerr = () => {
             <span class="text-sm text-gray-700 sm:text-center dark:text-gray-800">
               © 2023{" "}
               <a href="" class="hover:underline">
-                Name™
+                RAKHSAK™
               </a>
               . All Rights Reserved.
             </span>

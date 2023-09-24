@@ -18,7 +18,7 @@ const Features = () => {
   return (
     <div className="flex flex-col">
       <div className="flex justify-center items-center bg-p7 pt-12 p-4 z-10">
-        <h1 className="text-3xl">How does it work?</h1>
+        <h1 className="text-3xl font-semibold mb-10">How does it work?</h1>
       </div>
       <div
         ref={myRef1}
@@ -29,37 +29,58 @@ const Features = () => {
           src="./accident.png"
           alt=""
         />
-        <p
-          className={`overflow-hidden RL_B ml-[5vw] ${
-            myElementIsVisible1 ? "RL_A" : ""
-          }`}
-        >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-          eveniet cum, quidem cumque nisi impedit maxime explicabo, similique
-          error repellat consectetur, dignissimos voluptates quod ad officiis
-          deleniti expedita quasi omnis id neque mollitia nulla iure quibusdam!
-          {myElementIsVisible1 ? "yes" : "no"}
-        </p>
+        <div className="flex flex-col gap-2 ml-[5vw] ">
+          <h1
+            className={` font-semibold overflow-hidden RL_B  ${
+              myElementIsVisible1 ? "RL_A" : ""
+            }`}
+          >
+            Accident Impact Detection and Response
+          </h1>
+          <p
+            className={`overflow-hidden RL_B  ${
+              myElementIsVisible1 ? "RL_A" : ""
+            }`}
+          >
+            Our system's pressure sensor detects accident impact by sensing
+            rapid pressure changes, accurately gauging accident intensity. This
+            data is rapidly transmitted to an integrated microprocessor,
+            functioning as the central processing unit. Here, the microprocessor
+            analyzes pressure data to assess accident severity and activate the
+            appropriate response measures, ensuring swift and effective actions
+            in the event of an accident.
+          </p>
+        </div>
       </div>
       <div
         ref={myRef2}
         className="flex flex-row justify-evenly items-center px-[10vw] bg-p7 h-[50vh] relative z-10"
       >
-        <p
-          className={`overflow-hidden LR_B ml-[5vw] ${
-            myElementIsVisible2 ? "LR_A" : ""
-          }`}
-        >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-          eveniet cum, quidem cumque nisi impedit maxime explicabo, similique
-          error repellat consectetur, dignissimos voluptates quod ad officiis
-          deleniti expedita quasi omnis id neque mollitia nulla iure quibusdam!
-          Vel non dolorum quas minima atque, alias totam modi veniam doloribus
-          {myElementIsVisible2 ? "yes" : "no"}
-        </p>
+        <div className="flex flex-col gap-2 ml-[5vw] ">
+          <h1
+            className={` font-semibold overflow-hidden LR_B  ${
+              myElementIsVisible2 ? "LR_A" : ""
+            }`}
+          >
+            Real-Time Data Integration and Storage
+          </h1>
+          <p
+            className={`overflow-hidden LR_B  ${
+              myElementIsVisible2 ? "LR_A" : ""
+            }`}
+          >
+            In this system, data from the microprocessor seamlessly integrates
+            with GSM and GPS modules. These modules collaboratively transmit
+            real-time data to a dedicated web server. The GSM module ensures
+            reliable cellular communication, while the GPS module provides
+            precise location details. This secure centralized storage enhances
+            safety and security by enabling comprehensive data analysis,
+            reporting, and remote monitoring.
+          </p>
+        </div>
         <img
           className={`RL_B h-[55vh] ${myElementIsVisible2 ? "RL_A" : ""} `}
-          src="./gps(1).png"
+          src="./accident.png"
           alt=""
         />
       </div>
@@ -69,21 +90,29 @@ const Features = () => {
       >
         <img
           className={`LR_B h-[55vh] ${myElementIsVisible3 ? "LR_A" : ""} `}
-          src="./gps(3).png"
+          src="./accident.png"
           alt=""
         />
-        <p
-          className={` overflow-hidden RL_B ml-[5vw] ${
-            myElementIsVisible3 ? "RL_A" : ""
-          }`}
-        >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-          eveniet cum, quidem cumque nisi impedit maxime explicabo, similique
-          error repellat consectetur, dignissimos voluptates quod ad officiis
-          deleniti expedita quasi omnis id neque mollitia nulla iure quibusdam!
-          Vel non dolorum quas minima atque, alias totam modi veniam doloribus
-          {myElementIsVisible3 ? "yes" : "no"}
-        </p>
+        <div className="flex flex-col gap-2 ml-[5vw] ">
+          <h1
+            className={` font-semibold overflow-hidden RL_B  ${
+              myElementIsVisible3 ? "RL_A" : ""
+            }`}
+          >
+            Web-Based Safety and Security Management
+          </h1>
+          <p
+            className={`overflow-hidden RL_B  ${
+              myElementIsVisible3 ? "RL_A" : ""
+            }`}
+          >
+            The website receives longitude and latitude data from the server and
+            displays it on an embedded map. It facilitates accident detection,
+            emergency response, theft prevention, recovery, ignition lock, and
+            smartphone connectivity, offering users a comprehensive platform for
+            safety and security management.
+          </p>
+        </div>
       </div>
       <div className="bg-p7 relative z-10">
         <div

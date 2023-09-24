@@ -9,11 +9,12 @@ const Home = () => {
 <div>
   <div className="h-[100vh] relative">
     {/* Add a block of text */}
-    <div className="fixed z-10 w-4/12  mt-52 ml-32">
-      <h1 className="text-5xl font-bold text-gray-800">Smart SOS System</h1>
-      <p className="mt-4 text-lg text-gray-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, aliquam dolorum atque voluptatum ea dolor nulla iste repellat odio amet ex porro eius quis, harum nostrum, possimus vitae assumenda incidunt!</p>
+    <div className="fixed z-10 w-4/12 mt-52 ml-32">
+      <h1 className="text-5xl font-bold text-gray-800">RAKHSAK</h1>
+      <h2 className=" text-[1rem]">Smart SOS System</h2>
+      <p className="mt-4 text-lg text-gray-700">Our cutting-edge solution enhances two-wheeler safety in India, detecting accidents in real-time, issuing alerts, reducing response times, and offering anti-theft features, GPS tracking, and market potential.</p>
       <a href="#">
-        <p>learn more...</p>
+        <p className=" mt-4 text-blue-600">learn more...</p>
       </a>
     </div>
     

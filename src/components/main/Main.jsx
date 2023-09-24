@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <div className="bg-white relative z-20">
       <div className="flex flex-col justify-center items-center">
-        <div className=" text-2xl">Map Section</div>
+        <div className=" text-2xl"></div>
         <div className="m-[15px] p-4 flex flex-row justify-evenly gap-32">
           <div className="h-[60vh] w-[40vw]">
             <img src="accident.png" alt="" />

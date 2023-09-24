@@ -6,7 +6,7 @@ const Container = () => {
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-            Lorem lorem
+            RAKHSAK
           </p>
         </div>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -35,102 +35,103 @@ const Container = () => {
             </svg>
             <span className="relative">The</span>
           </span>{" "}
-          Lorem ipsum dolor sit amet consectetur adipisicing.
+          Key Features
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-          architecto.
+          Our project pioneers two-wheeler road safety, blending tech and
+          solutions to enhance security, emergency response, theft prevention,
+          and rider experience.
         </p>
       </div>
       <div className="grid gap-8 row-gap-10 lg:grid-cols-2">
         <div className="max-w-md sm:mx-auto sm:text-center">
           <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
             <img
-              src="./p6.jpg"
-              alt="imgage"
-              class="w-32 rounded-full shadow-lg dark:shadow-black/20"
-            />
-          </div>
-          <h6 className="mb-3 text-xl font-bold leading-5">Hela au</h6>
-          <p className="mb-3 text-sm text-gray-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-            placeat facilis? Perspiciatis velit ipsum, fuga fugiat eveniet magni
-            aperiam dignissimos, at dolor maxime tempore dolore!
-          </p>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-          </a>
-        </div>
-        <div className="max-w-md sm:mx-auto sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <img
-              src="./p6.jpg"
-              alt="imgage"
-              class="w-32 rounded-full shadow-lg dark:shadow-black/20"
-            />
-          </div>
-          <h6 className="mb-3 text-xl font-bold leading-5">Hela au</h6>
-          <p className="mb-3 text-sm text-gray-900">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
-            sapiente iure molestiae odio totam laboriosam harum quod quisquam
-            sunt? Ipsam!
-          </p>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-          </a>
-        </div>
-        <div className="max-w-md sm:mx-auto sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <img
-              src="./p6.jpg"
-              alt="imgage"
-              class="w-32 rounded-full shadow-lg dark:shadow-black/20"
-            />
-          </div>
-          <h6 className="mb-3 text-xl font-bold leading-5">Hela au</h6>
-          <p className="mb-3 text-sm text-gray-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-            laboriosam quo debitis quidem deserunt quae. Quibusdam nostrum
-            veniam quisquam quia?
-          </p>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-          </a>
-        </div>
-        <div className="max-w-md sm:mx-auto sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <img
-              src="./p6.jpg"
+              src="./t1.jpg"
               alt="imgage"
               class="w-32 rounded-full shadow-lg dark:shadow-black/20"
             />
           </div>
           <h6 className="mb-3 text-xl font-bold leading-5">
-            Lorem, ipsum dolor.
+            Accident Detection and Emergency Response
           </h6>
           <p className="mb-3 text-sm text-gray-900">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
-            necessitatibus ratione dignissimos rerum voluptatem non porro quos
-            similique deserunt soluta.
+            Accident detection alerts authorities, reduces response times, and
+            is vital when riders can't call for help.
           </p>
           <a
             href="/"
             aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 text-blue-900"
           >
-            Learn more
+            Learn more...
+          </a>
+        </div>
+        <div className="max-w-md sm:mx-auto sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <img
+              src="./t2.jpg"
+              alt="imgage"
+              class="w-32 rounded-full shadow-lg dark:shadow-black/20"
+            />
+          </div>
+          <h6 className="mb-3 text-xl font-bold leading-5">
+            Theft Prevention and Recovery
+          </h6>
+          <p className="mb-3 text-sm text-gray-900">
+            In case of unauthorized access or theft, our system activates
+            anti-theft measures, alerts the owner, and provides GPS tracking.
+          </p>
+          <a
+            href="/"
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 text-blue-900"
+          >
+            Learn more...
+          </a>
+        </div>
+        <div className="max-w-md sm:mx-auto sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <img
+              src="./t3.jpg"
+              alt="imgage"
+              class="w-32 rounded-full shadow-lg dark:shadow-black/20"
+            />
+          </div>
+          <h6 className="mb-3 text-xl font-bold leading-5">Ignition Lock</h6>
+          <p className="mb-3 text-sm text-gray-900">
+            Intelligent feature confirms owner departure, making post-key
+            removal actions invalid access, bolstering security with an
+            additional layer.
+          </p>
+          <a
+            href="/"
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 text-blue-900"
+          >
+            Learn more...
+          </a>
+        </div>
+        <div className="max-w-md sm:mx-auto sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <img
+              src="./t4.jpg"
+              alt="imgage"
+              class="w-32 rounded-full shadow-lg dark:shadow-black/20"
+            />
+          </div>
+          <h6 className="mb-3 text-xl font-bold leading-5">GPS Tracking</h6>
+          <p className="mb-3 text-sm text-gray-900">
+            In case of theft, GPS tracking can help locate the stolen bike,
+            while anti-theft features such as alarms and immobilizers can deter
+            theft attempts.
+          </p>
+          <a
+            href="/"
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 text-blue-900"
+          >
+            Learn more...
           </a>
         </div>
       </div>

@@ -12,12 +12,13 @@ module.exports = {
         p6: "#FEF2F2",
         p7: "#fff",
         p8: "#705959",
-        p9: "#BFA5A5"
+        p9: "#BFA5A5",
+        p10: "#0f3cc9",
+        p11: "#DF6565"
       },
       backgroundImage: {
         'bGround': "url('./assets/bg.png')",
         'bGround1': "url('./assets/bg1.png')",
-        
       },
     },
   },

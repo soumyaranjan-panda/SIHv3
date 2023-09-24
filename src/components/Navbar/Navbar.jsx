@@ -16,7 +16,6 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <a className="flex flex-row justify-evenly gap-4" href="#">
               <img className="w-auto h-4 sm:h-5" src="./logoRakshak.png" alt="" />
-              
             </a>
 
             <div className="flex lg:hidden">

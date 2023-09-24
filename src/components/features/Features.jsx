@@ -14,7 +14,7 @@ const Features = () => {
   });
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col" id="Working">
       <div className="flex justify-center items-center bg-p7 pt-12 p-4 z-10">
         <h1 className="text-3xl font-semibold mb-10">How does it work?</h1>
       </div>

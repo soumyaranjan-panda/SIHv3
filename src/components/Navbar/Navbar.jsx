@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky px-24 top-0 z-0  bg-white shadow dark:bg-red-400/70  backdrop-blur-md">
+    <nav className="sticky px-24 top-0 z-40 bg-white shadow dark:bg-red-400/60  backdrop-blur-md">
       <div className="  container px-6 py-2 mx-auto">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="flex items-center justify-between">
@@ -72,41 +72,41 @@ const Navbar = () => {
           >
             <div className="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8">
               <a
-                href="#"
+                href="#Working"
                 className="px-2 py-1.5 mx-3 mt-2 text-gray-50 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-p8/70 dark:hover:drop-shadow-sm"
               >
                 Working
               </a>
               <a
-                href="#"
+                href="#Maps"
                 className="px-2 py-1.5 mx-3 mt-2 text-gray-200 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-p8/70 dark:hover:drop-shadow-sm"
               >
                 Maps
               </a>
               <a
-                href="#"
+                href="#Features"
                 className="px-2 py-1.5 mx-3 mt-2 text-gray-200 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-p8/70 dark:hover:drop-shadow-sm"
               >
                 Features
               </a>
               <a
-                href="#"
+                href="#Testimonials"
                 className="px-2 py-1.5 mx-3 mt-2 text-gray-200 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50  hover:bg-gray-100 dark:hover:bg-p8/70 dark:hover:drop-shadow-sm"
               >
                 Testimonials
               </a>
               <a
-                href="#"
+                href="#More"
                 className="px-2 py-1.5 mx-3 mt-2 text-white transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-50 hover:bg-gray-100 dark:hover:bg-p8/70 dark:hover:drop-shadow-sm"
               >
                 More
               </a>
             </div>
 
-            <button className="px-2 py-1.5 font-medium tracking-wide text-red-400  capitalize transition-colors duration-300 transform bg-white/80 rounded-lg hover:bg-p11/70 hover:text-white focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <button className="px-2 py-1.5 font-medium tracking-wide text-red-400  capitalize transition-colors duration-300 transform bg-white/80 rounded-lg hover:bg-p11/70 hover:text-white ">
               Sign Up
             </button>
-            <button className="px-2 py-1.5 mx-3 font-medium tracking-wide text-red-400  capitalize transition-colors duration-300 transform bg-white/80 rounded-lg hover:bg-p11/70 hover:text-white focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <button className="px-2 py-1.5 mx-3 font-medium tracking-wide text-red-400  capitalize transition-colors duration-300 transform bg-white/80 rounded-lg hover:bg-p11/70 hover:text-white ">
               Login
             </button>
           </div>

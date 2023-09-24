@@ -8,7 +8,7 @@ const Main = () => {
   const [lat, setLat] = useState(20.275327);
   const [log, setLog] = useState(85.776795);
   return (
-    <div className="bg-white relative z-20">
+    <div className="bg-white relative z-20" id="Maps">
       <div className="flex flex-col justify-center items-center">
         <div className=" text-2xl"></div>
         <div className="m-[15px] p-4 flex flex-row justify-evenly gap-32">

@@ -7,7 +7,7 @@ const Home = () => {
   
   return (
 <div>
-  <div className="h-[100vh] relative">
+  <div id="home" className="h-[100vh] relative">
     {/* Add a block of text */}
     <div className="fixed z-10 w-4/12 mt-52 ml-32">
       <h1 className="text-5xl font-bold text-gray-800">RAKHSAK</h1>
